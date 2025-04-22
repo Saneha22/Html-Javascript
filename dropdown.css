@@ -1,0 +1,46 @@
+nav {
+    background-color: #333;
+  }
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+
+a {
+    color : white;
+    text-decoration-line: none;
+}
+
+nav > ul > li {
+    position: relative;
+    padding: 14px 200px;
+    cursor: pointer;
+  }
+
+nav > ul > li:hover {
+    background-color: #444;
+  }
+
+.dropdown-items {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #444;
+    min-width: 160px;
+    z-index: 1;
+  }
+
+.dropdown-items li {
+    padding: 10px;
+    color: white;
+    white-space : nowrap;
+  }
+
+  
+.dropdown-items li:hover {
+    background-color: #555;
+  }
